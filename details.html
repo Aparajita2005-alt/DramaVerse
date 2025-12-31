@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drama Details | DramaVerse</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+</head>
+<body>
+
+    <!-- HEADER (reuse same header if you want) -->
+    <header class="header">
+        <div class="logo">DramaVerse 🌸</div>
+    </header>
+
+    <!-- DETAILS -->
+    <section class="details-container">
+        <img id="dramaImage" alt="Drama Poster">
+
+        <div class="details-info">
+            <h1 id="dramaTitle"></h1>
+
+            <p><strong>Country:</strong> <span id="dramaCountry"></span></p>
+            <p><strong>Genre:</strong> <span id="dramaGenre"></span></p>
+             <div class="meta-info">
+    <span>📺 <strong id="dramaEpisodes"></strong> Episodes</span>
+    <span>⭐ <strong id="dramaRating"></strong> / 10</span>
+</div>
+
+            <p class="detail-desc" id="dramaDesc">
+                A heart-warming story that explores love, youth, and life.
+            </p>
+            <button class="trailer-btn" onclick="openTrailer()">
+                     ▶ Watch Trailer
+            </button>
+
+            <button class="watchlist-btn" onclick="addToWatchlist()">
+                ❤️ Add to Watchlist
+            </button>
+
+        </div>
+    
+    </section>
+
+    <script src="details.js"></script>
+</body>
+</html>

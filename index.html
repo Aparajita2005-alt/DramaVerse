@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DramaVerse</title>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- HEADER -->
+         
+    <header class="header">
+        <div class="logo">DramaVerse 🌸</div>
+
+        <input type="text" class="search-box" placeholder="Search dramas, actors, genres">
+
+        <button class="login-btn" onclick="location.href='login.html'">Login</button>
+
+
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Stories that feel like home</h1>
+            <p>Discover youth, romance, and healing dramas from Asia</p>
+
+            <div class="genres">
+                 <span onclick="filterGenre('Romance')">Romance</span>
+                 <span onclick="filterGenre('Youth')">Youth</span>
+                 <span onclick="filterGenre('School Life')">School Life</span>
+                 <span onclick="filterGenre('Friendship')">Friendship</span>
+                 <span onclick="filterGenre('Family')">Family</span>
+                 
+                
+            </div>
+            <div class="hero-buttons">
+    <button class="login-btn" onclick="location.href='watchlist.html'">
+    Watchlist ❤️
+</button>
+
+    <button class="explore-btn">Explore Dramas</button>
+</div>
+
+        </div>
+        
+
+    </section>
+    <!-- 🔥 TRENDING NOW -->
+<section class="trending-section">
+    <h2 class="trending-title">🔥 Trending Now</h2>
+    <div class="trending-row" id="trendingRow">
+        <!-- Trending cards injected by JS -->
+    </div>
+</section>
+
+    <section class="language-section" id="dramaContainer">
+
+    <!-- Sections injected by JS -->
+</section>
+
+
+
+
+<script src="script.js"></script>
+
+<footer class="footer">
+    <div class="footer-content">
+
+        <div class="footer-brand">
+            <h3>DramaVerse 🌸</h3>
+            <p>Your space to discover comfort dramas.</p>
+        </div>
+
+        <div class="footer-links">
+            <h4>Explore</h4>
+            <a href="#">Home</a>
+            <a href="#">Popular</a>
+            <a href="#">Genres</a>
+            <a href="#">Watchlist</a>
+        </div>
+
+        <div class="footer-links">
+            <h4>Support</h4>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2025 DramaVerse. Built with ❤️ for drama lovers.
+    </div>
+</footer>
+
+</body>
+
+</html>
